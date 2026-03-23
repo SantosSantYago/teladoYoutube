@@ -2,10 +2,64 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video no Youtube</title>
+    <title>YouTube Player - Clone Simples</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <header class="barra-topo">
+        <div class="logo">YouTube<sup>BR</sup></div>
+        <div class="container-busca">
+            <input type="text" placeholder="Pesquisar">
+            <button>🔍</button>
+        </div>
+        <div class="perfil">🔔 👤</div>
+    </header>
+
+    <main class="conteudo">
+        
+        <section class="area-player">
+            <div class="video-placeholder">
+                <div class="botao-play">▶</div>
+            </div>
+            
+            <h1 class="titulo-video">Slow Summer Chill 🎶 Lo-Fi Hip Hop Beats</h1>
+            
+            <div class="info-canal">
+                <div class="canal-detalhes">
+                    <div class="avatar-canal"></div>
+                    <div>
+                        <strong>chilli music</strong><br>
+                        <small>326 mil inscritos</small>
+                    </div>
+                    <button class="btn-inscrever">Inscrever-se</button>
+                </div>
+                <div class="acoes-video">
+                    <button>👍 13</button>
+                    <button>👎</button>
+                    <button>Compartilhar</button>
+                </div>
+            </div>
+        </section>
+
+        <aside class="recomendados">
+            <div class="item-video">
+                <div class="mini-thumb"></div>
+                <div class="mini-texto">
+                    <p class="mini-titulo">Chill Drive - Aesthetic Music</p>
+                    <p class="mini-canal">chilli music</p>
+                </div>
+            </div>
+            <div class="item-video">
+                <div class="mini-thumb"></div>
+                <div class="mini-texto">
+                    <p class="mini-titulo">Calm Your Energy ✨ 420 Lo-Fi</p>
+                    <p class="mini-canal">chilli music</p>
+                </div>
+            </div>
+        </aside>
+
+    </main>
+
 </body>
 </html>
