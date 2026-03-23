@@ -5,7 +5,7 @@ body {
 }
 
 /* Header */
-.barra-topo {
+.barra_superior {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,19 +13,26 @@ body {
     height: 50px;
 }
 
-.container-busca {
+.icone_barra_superior {
+    width: auto;
+    height: 100%;
+    display: block;
+    fill: currentcolor;
+}
+
+.barra_pesquisar {
     display: flex;
     width: 40%;
 }
 
-.container-busca input {
+.barra_pesquisar input {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 20px 0 0 20px;
 }
 
-.container-busca button {
+.barra_pesquisar button {
     padding: 0 15px;
     border: 1px solid #ccc;
     border-left: none;
@@ -41,14 +48,14 @@ body {
 }
 
 /* Área do Vídeo */
-.area-player {
+.player {
     flex: 2; /* Ocupa 2 partes do espaço */
 }
 
-.video-placeholder {
+.player_video {
     width: 100%;
     aspect-ratio: 16 / 9; /* Mantém o formato de vídeo */
-    background-color: #000;
+   background-image: url(img/imgVideoPlayer.png);
     border-radius: 12px;
     display: flex;
     justify-content: center;
