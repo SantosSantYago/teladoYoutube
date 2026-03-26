@@ -4,7 +4,6 @@ body {
     background-color: #fff;
 }
 
-/* Header */
 .barra_superior {
     display: flex;
     justify-content: space-between;
@@ -39,7 +38,6 @@ body {
     border-radius: 0 20px 20px 0;
 }
 
-/* Layout de duas colunas */
 .conteudo {
     display: flex;
     max-width: 1200px;
@@ -47,7 +45,6 @@ body {
     gap: 24px;
 }
 
-/* Área do Vídeo */
 .player {
     flex: 2; /* Ocupa 2 partes do espaço */
 }
@@ -55,43 +52,43 @@ body {
 .player_video {
     width: 100%;
     aspect-ratio: 16 / 9; /* Mantém o formato de vídeo */
-   background-image: url(img/imgVideoPlayer.png);
+    background-image: url(img/imgVideoPlayer.png);
     border-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.botao-play {
+.botao_play {
     color: white;
     font-size: 50px;
 }
 
-.titulo-video {
+.titulo_video {
     font-size: 20px;
     margin: 15px 0;
 }
 
-.info-canal {
+.informacao_canal {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.canal-detalhes {
+.detalhe_canal {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.avatar-canal {
-    width: 40px;
-    height: 40px;
-    background-color: orange;
+.avatar_canal {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/avatarCanal.png);
     border-radius: 50%;
 }
 
-.btn-inscrever {
+.botao_inscrever {
     background-color: #000;
     color: #fff;
     border: none;
@@ -101,8 +98,7 @@ body {
     margin-left: 10px;
 }
 
-/* Área Lateral */
-.recomendados {
+.videos_recomendados {
     flex: 1; /* Ocupa 1 parte do espaço */
 }
 
@@ -112,21 +108,29 @@ body {
     margin-bottom: 12px;
 }
 
-.mini-thumb {
+.mini_thumb1 {
     width: 160px;
     height: 90px;
-    background-color: #ddd;
+    background-image: url(img/minithumb1.png);
     border-radius: 8px;
     flex-shrink: 0;
 }
 
-.mini-titulo {
+.mini_thumb2 {
+    width: 160px;
+    height: 90px;
+    background-image: url(img/minithumb2.png);
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.mini_titulo {
     font-size: 14px;
     font-weight: bold;
     margin: 0;
 }
 
-.mini-canal {
+.mini_canal {
     font-size: 12px;
     color: #606060;
 }
